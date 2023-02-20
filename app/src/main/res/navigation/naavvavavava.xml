@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/odinFragment"
-        android:name="com.moonton.mobi.OdinFragment"
+        android:name="com.moonton.mobi.hymmhyhyyhji.OdinFragment"
         android:label="fragment_odin"
         tools:layout="@layout/fragment_odin" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/dvaFragment"
-        android:name="com.moonton.mobi.DvaFragment"
+        android:name="com.moonton.mobi.vfdeedfrgtgtgt.DvaFragment"
         android:label="fragment_dva"
         tools:layout="@layout/fragment_dva" >
         <action
@@ -25,7 +25,7 @@
     </fragment>
     <fragment
         android:id="@+id/triFragment"
-        android:name="com.moonton.mobi.TriFragment"
+        android:name="com.moonton.mobi.gtthyhy.TriFragment"
         android:label="fragment_tri"
         tools:layout="@layout/fragment_tri" >
         <action
@@ -34,7 +34,7 @@
     </fragment>
     <fragment
         android:id="@+id/choturyFragment"
-        android:name="com.moonton.mobi.ChoturyFragment"
+        android:name="com.moonton.mobi.vfdeedfrgtgtgt.ChoturyFragment"
         android:label="fragment_chotury"
         tools:layout="@layout/fragment_chotury" >
         <action
@@ -43,7 +43,7 @@
     </fragment>
     <fragment
         android:id="@+id/patyFragment"
-        android:name="com.moonton.mobi.PatyFragment"
+        android:name="com.moonton.mobi.hymmhyhyyhji.PatyFragment"
         android:label="fragment_paty"
         tools:layout="@layout/fragment_paty" />
 </navigation>

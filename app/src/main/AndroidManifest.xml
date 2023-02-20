@@ -2,8 +2,17 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <uses-permission android:name="android.permission.CAMERA2" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
-    
+
+
 
     <application
         android:allowBackup="true"
@@ -16,16 +25,16 @@
         android:theme="@style/Theme.NeonDeities"
         tools:targetApi="31">
         <activity
-            android:name=".VebvebvebvebActivity2"
+            android:name=".gtkgiotitg.VebvebvebvebActivity2"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".GamegamegameActivity2"
+            android:name=".vfdeedfrgtgtgt.GamegamegameActivity2"
             android:screenOrientation="portrait"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".vfdeedfrgtgtgt.MainActivity"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait"
             android:exported="true">
