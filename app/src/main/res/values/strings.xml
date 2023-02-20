@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Neon Deities</string>
+    <string name="facebook_app_id">999637021013962</string>
+    <string name="facebook_client_token">5f93bfddec3a185755d75a4f48caa247</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/naavvavavava"
+    app:startDestination="@id/odinFragment">
+
+    <fragment
+        android:id="@+id/odinFragment"
+        android:name="com.moonton.mobi.OdinFragment"
+        android:label="fragment_odin"
+        tools:layout="@layout/fragment_odin" >
+        <action
+            android:id="@+id/action_odinFragment_to_dvaFragment"
+            app:destination="@id/dvaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dvaFragment"
+        android:name="com.moonton.mobi.DvaFragment"
+        android:label="fragment_dva"
+        tools:layout="@layout/fragment_dva" >
+        <action
+            android:id="@+id/action_dvaFragment_to_triFragment"
+            app:destination="@id/triFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/triFragment"
+        android:name="com.moonton.mobi.TriFragment"
+        android:label="fragment_tri"
+        tools:layout="@layout/fragment_tri" >
+        <action
+            android:id="@+id/action_triFragment_to_choturyFragment"
+            app:destination="@id/choturyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/choturyFragment"
+        android:name="com.moonton.mobi.ChoturyFragment"
+        android:label="fragment_chotury"
+        tools:layout="@layout/fragment_chotury" >
+        <action
+            android:id="@+id/action_choturyFragment_to_patyFragment"
+            app:destination="@id/patyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/patyFragment"
+        android:name="com.moonton.mobi.PatyFragment"
+        android:label="fragment_paty"
+        tools:layout="@layout/fragment_paty" />
+</navigation>
