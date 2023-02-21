@@ -46,3 +46,24 @@
 #AppsFlyer
 -keep class com.appsflyer.** { *; }
 -keep public class com.android.installreferrer.** { *; }
+
+-keep class com.mvffg.** { *; }
+-dontwarn okio.**
+-keepclassmembers class * {
+    @com.squareup.moshi.FromJson <methods>;
+    @com.squareup.moshi.ToJson <methods>;
+}
+-keep class com.example.models.data.** {*;}
+
+-keepclasseswithmembers class * {
+    @com.squareup.moshi.* <methods>;
+}
+-keep @com.squareup.moshi.JsonQualifier interface *
+-keepclassmembers class kotlin.Metadata {
+    public <methods>;
+}
+
+-keepnames @kotlin.Metadata class com.myapp.packagename.model.**
+-keep class com.myapp.packagnename.model.** { *; }
+-keepclassmembers class com.myapp.packagename.model.** { *; }
+-keep class com.squareup.moshi.** { *; }

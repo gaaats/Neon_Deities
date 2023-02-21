@@ -56,11 +56,6 @@ class Plaayyyy1Fragment : Fragment() {
             hthy2hy26hy()
         }
 
-        hyjuujujuj.imgGameElem2.setOnClickListener {
-            it.visibility = View.INVISIBLE
-            it.isEnabled = false
-            hthy2hy26hy()
-        }
     }
 
     private fun frrfjifrjiofrjirf() {
@@ -73,12 +68,6 @@ class Plaayyyy1Fragment : Fragment() {
 
     private fun jrfiffrhuhrfhurf() {
         hyjuujujuj.imgGameElem4.setOnClickListener {
-            it.visibility = View.INVISIBLE
-            it.isEnabled = false
-            hthy2hy26hy()
-        }
-
-        hyjuujujuj.imgGameElem5.setOnClickListener {
             it.visibility = View.INVISIBLE
             it.isEnabled = false
             hthy2hy26hy()
@@ -113,10 +102,8 @@ class Plaayyyy1Fragment : Fragment() {
     private val hyhyhy26hy by lazy {
         listOf(
             hyjuujujuj.imgGameElem1,
-            hyjuujujuj.imgGameElem2,
             hyjuujujuj.imgGameElem3,
             hyjuujujuj.imgGameElem4,
-            hyjuujujuj.imgGameElem5,
             hyjuujujuj.imgGameElem6,
             hyjuujujuj.imgGameElem7,
             hyjuujujuj.imgGameElem8,

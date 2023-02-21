@@ -15,7 +15,7 @@
         android:layout_marginBottom="32dp"
         android:src="@drawable/falcon"
         app:layout_constraintBottom_toTopOf="@id/hghyhyjuujuj"
-        app:layout_constraintEnd_toStartOf="@id/img_game_elem_2"
+        app:layout_constraintEnd_toStartOf="@id/img_game_elem_3"
         app:layout_constraintStart_toStartOf="parent" />
 
 
@@ -25,14 +25,14 @@
         android:layout_width="170dp"
         android:layout_height="48dp"
         android:layout_marginTop="8dp"
-        android:background="@drawable/sasha_ic_rectangle_46"
+        android:background="#301701"
         android:fontFamily="@font/open_sans_bold"
         android:gravity="center"
         android:lines="1"
         android:maxLines="1"
-        android:text="25696"
+        android:text="3568"
         android:textAllCaps="true"
-        android:textColor="#F6CACA"
+        android:textColor="#F6E1CA"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="@id/frgtggtgt"
         app:layout_constraintStart_toEndOf="@id/fihhihrfhfrhrfhurf"
@@ -64,10 +64,11 @@
         android:id="@+id/tv_total_balance_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/montserrat_black"
+        android:fontFamily="@font/open_sans_bold"
         android:text="current bonus"
+        android:background="#301701"
         android:textAllCaps="true"
-        android:textColor="#D8D1FB"
+        android:textColor="#FBE7D1"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -80,15 +81,15 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.05" />
 
-    <ImageView
-        android:id="@+id/img_game_elem_2"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:layout_marginBottom="32dp"
-        android:src="@drawable/falcon"
-        app:layout_constraintBottom_toTopOf="@id/hghyhyjuujuj"
-        app:layout_constraintEnd_toStartOf="@id/img_game_elem_3"
-        app:layout_constraintStart_toEndOf="@id/img_game_elem_1" />
+<!--    <ImageView-->
+<!--        android:id="@+id/img_game_elem_2"-->
+<!--        android:layout_width="70dp"-->
+<!--        android:layout_height="70dp"-->
+<!--        android:layout_marginBottom="32dp"-->
+<!--        android:src="@drawable/falcon"-->
+<!--        app:layout_constraintBottom_toTopOf="@id/hghyhyjuujuj"-->
+<!--        app:layout_constraintEnd_toStartOf="@id/img_game_elem_3"-->
+<!--        app:layout_constraintStart_toEndOf="@id/img_game_elem_1" />-->
 
     <ImageView
         android:id="@+id/img_game_elem_3"
@@ -98,7 +99,7 @@
         android:src="@drawable/falcon"
         app:layout_constraintBottom_toTopOf="@id/hghyhyjuujuj"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/img_game_elem_2" />
+        app:layout_constraintStart_toEndOf="@id/img_game_elem_1" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/vgbhyhyhyhy"
@@ -142,19 +143,10 @@
         android:layout_height="70dp"
         android:layout_marginTop="32dp"
         android:src="@drawable/falcon"
-        app:layout_constraintEnd_toStartOf="@id/img_game_elem_5"
+        app:layout_constraintEnd_toStartOf="@id/img_game_elem_6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/hghyhyjuujuj" />
 
-    <ImageView
-        android:id="@+id/img_game_elem_5"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:layout_marginTop="32dp"
-        android:src="@drawable/falcon"
-        app:layout_constraintEnd_toStartOf="@id/img_game_elem_6"
-        app:layout_constraintStart_toEndOf="@id/img_game_elem_4"
-        app:layout_constraintTop_toBottomOf="@id/hghyhyjuujuj" />
 
 
     <ImageView
@@ -164,7 +156,7 @@
         android:layout_marginTop="32dp"
         android:src="@drawable/falcon"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/img_game_elem_5"
+        app:layout_constraintStart_toEndOf="@id/img_game_elem_4"
         app:layout_constraintTop_toBottomOf="@id/hghyhyjuujuj" />
 
     <ImageView
@@ -172,9 +164,8 @@
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:src="@drawable/falcon"
+        app:layout_constraintEnd_toStartOf="@+id/hghyhyjuujuj"
         app:layout_constraintBottom_toTopOf="@id/img_game_elem_4"
-        app:layout_constraintEnd_toEndOf="@id/img_game_elem_1"
-        app:layout_constraintStart_toStartOf="@id/img_game_elem_1"
         app:layout_constraintTop_toBottomOf="@id/img_game_elem_1" />
 
     <ImageView
@@ -183,31 +174,30 @@
         android:layout_height="70dp"
         android:src="@drawable/falcon"
         app:layout_constraintBottom_toTopOf="@id/img_game_elem_6"
-        app:layout_constraintEnd_toEndOf="@id/img_game_elem_3"
-        app:layout_constraintStart_toStartOf="@id/img_game_elem_3"
+        app:layout_constraintStart_toEndOf="@+id/hghyhyjuujuj"
         app:layout_constraintTop_toBottomOf="@id/img_game_elem_3" />
 
     <TextView
         android:id="@+id/gthyhyyhyh"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="#793CDA"
-        android:fontFamily="@font/opensans_extra_bold"
+        android:background="#DAAD3C"
+        android:fontFamily="@font/montserrat_black"
         android:gravity="center"
-        android:text="get super elements.\nget 25xExtra Bonus,\n\n only 1 try"
+        android:text="get super elements\nget 25x Extra Bonus\n\n only 1 game"
         android:textAllCaps="true"
-        android:textColor="#110337"
+        android:textColor="#371B03"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@id/frgtggtgt"
         app:layout_constraintStart_toStartOf="@id/fihhihrfhfrhrfhurf"
-        app:layout_constraintTop_toBottomOf="@id/img_game_elem_5" />
+        app:layout_constraintTop_toBottomOf="@id/img_game_elem_6" />
 
 
     <ImageView
         android:id="@+id/hghyhyjuujuj"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
         android:src="@drawable/main"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -5,6 +5,7 @@ import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 import com.mvffg.btwolib.BTwoLib
 import org.koin.android.ext.android.inject
 import org.koin.core.qualifier.named
